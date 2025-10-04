@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  text-align:center;
+  background:linear-gradient(#B5EAD7, #77DD77)
+}
+
+.go_back {
+  position: absolute;
+  background-color: black;
+  border: 2px solid transparent;
+  color: white;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  top: 10px;
+  left: 20px;
+  border-radius: 100px;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.go_back img {
+  transition: all 0.3s ease;
+}
+
+.go_back:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.go_back:hover img {
+  content: url('../../images/go_back_black.png');
+}
+
+.reg_title {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 64px;
+  top: 50px;
+  left: 325px;
+}
+
+.reg_fname {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 200px;
+  left: 175px;
+}
+
+.reg_lname {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 275px;
+  left: 175px;
+}
+
+.reg_birthdate {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 350px;
+  left: 175px;
+}
+
+.login_title {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 64px;
+  top: 50px;
+  left: 565px;
+}
+
+.reg_user {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 200px;
+  left: 775px;
+}
+
+.reg_pass {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 275px;
+  left: 775px;
+}
+
+.reg_confirm_pass {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 350px;
+  left: 775px;
+}
+
+.patreg_title {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 64px;
+  top: 50px;
+  left: 275px;
+}
+
+.pat_reg_user {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 150px;
+  left: 475px;
+}
+
+.pat_reg_email {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 225px;
+  left: 475px;
+}
+
+.pat_reg_pass {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 300px;
+  left: 475px;
+}
+
+.pat_reg_confirm_pass {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 375px;
+  left: 475px;
+}
+
+.login_user {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 200px;
+  left: 475px;
+}
+
+.login_pass {
+  position: absolute;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 275px;
+  left: 475px;
+}
+
+.login_google {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #fed6e3;
+  padding: 10px 10px;
+  top: 140px;
+  left: 540px;
+  border-radius: 50px;
+}
+
+.login_fb {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: #B5EAD7, #77DD77;
+  padding: 10px 10px;
+  top: 140px;
+  left: 630px;
+  border-radius: 50px;
+}
+
+.login_x {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color:#B5EAD7, #77DD77;
+  padding: 8px 10px;
+  top: 140px;
+  left: 720px;
+  border-radius: 50px;
+}
+
+.remember-forgot {
+  position: absolute;
+  top: 340px;
+  left: 480px;
+}
+  
+.reg_button {
+  position: absolute;
+  background-color: #B5EAD7, #77DD77;
+  border: 1px solid transparent;
+  color: black;
+  padding: 25px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 450px;
+  left: 560px;
+  border-radius: 15px;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.reg_button:hover {
+  background-color: #a8edea;
+  color: black;
+}
+
+.login_button {
+  position: absolute;
+  background-color: #f5cde2;
+  border: 2px solid transparent;
+  color: black;
+  padding: 25px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 400px;
+  left: 560px;
+  border-radius: 15px;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.login_button:hover {
+  background-color: #B5EAD7;
+  color: black;
+}
+
+.reg_login {
+  position: absolute;
+  top: 485px;
+  left: 520px;
+}
+
+.login_reg {
+  position: absolute;
+  top: 535px;
+  left: 525px;
+}
+
+.reset_pass {
+  position: absolute;
+  font-size: 64px;
+  top: 75px;
+  left: 420px;
+}
+
+.send_code {
+  position: absolute;
+  background-color: black;
+  border: none;
+  color:#B5EAD7, #77DD77;
+  padding: 15px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  top: 200px;
+  left: 555px;
+}
+
