@@ -9,3 +9,23 @@
  A project developed for the event of HackTUES 11, the topic being "Hack The Wealth" and the chosen sub-topic being "Health". Directed by the team of "5 часа сън" / "5 hours of sleep".
 
 A social network where users can anonymously ask questions related to their mental health and stability, seek advice or share their problems to others. These posts can be seen by registered therapists, psychologists, etc. who are able to send them a response. If the given response is proven effective, the anonymous user is allowed to view the profile and more information about said person, and later get in contact with them and schedule an actual appointment.
+
+---
+
+## Team and Contributions
+
+> Note: This was a **team project**. I contributed as part of the team.
+
+**Team Members / GitHub Usernames:**
+
+- `VIKIPLAYBG`
+- `KristiyanKobarelov` 
+- `YordanTsonev`
+- `Ivaneta08`
+- `MartinValentinov (me)`
+
+---
+
+## Disclaimer
+
+This repository contains the full project code as worked on by the team. Contributions were shared among team members. Including this repo does **not imply sole ownership**.
