@@ -16,6 +16,8 @@ A social network where users can anonymously ask questions related to their ment
 
 > Note: This was a **team project**. I contributed as part of the team.
 
+[GitHub Repo](https://github.com/VIKIPLAYBG/5-chasa-syn---Hack-TUES_11)
+
 **Team Members / GitHub Usernames:**
 
 - `VIKIPLAYBG`
